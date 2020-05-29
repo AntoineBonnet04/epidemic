@@ -19,7 +19,7 @@ This program is meant to account for human, syntaxic, writing and formatting err
 
 The process is divided into 4 stages, with one corresponding file each:
 
-Stage 1 (initial_clean.py) : Formatting errors
-Stage 2 (initial_clean.py) : Syntaxic errors
-Stage 3 (time_series.py): Finds age of each patient, language and translation errors, plots a graph with the number of infected/recovered/dead patients every day
-Stage 4 (construct_patients.py): Patient class, plots a graph with fatality rates by age
+1. (initial_clean.py) : Formatting errors
+2. (initial_clean.py) : Syntaxic errors
+3. (time_series.py): Finds age of each patient, language and translation errors, plots a graph with the number of infected/recovered/dead patients every day
+4. (construct_patients.py): Patient class, plots a graph with fatality rates by age
