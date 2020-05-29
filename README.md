@@ -16,3 +16,8 @@ The raw data is contained in the data.txt file, where each line of your raw file
 9. How many days the patient has been symptomatic
 
 This program is meant to account for human, syntaxic, writing and formatting errors made during the production of the raw file. 
+
+The process is divided into 4 stages, with one corresponding file each:
+Stage 1 & 2: initial_clean.py : Formatting and syntaxic errors
+Stage 3 (time_series.py): Finds age of each patient, language and translation errors, plots a graph with the number of infected/recovered/dead patients every day
+Stage 4 (construct_patients.py): Patient class, plots a graph with fatality rates by age
